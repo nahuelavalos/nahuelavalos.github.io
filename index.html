@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:url" content="https://github.io/portfolio" />
+    <meta
+      property="og:site_name"
+      content="Nahuel Avalos | Fullstack Developer"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="apple-touch-icon" href="./assets/logo.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="./assets/logo-120x120.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/logo-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/logo-16x16.png"
+    />
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/favicon.ico" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="media.css" media="(max-width: 991px)" />
+    <script
+      src="https://kit.fontawesome.com/7b5fb2de65.js"
+      crossorigin="anonymous"
+      async
+    ></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Nahuel Avalos</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar__logo">
+          <p class="navbar__title">
+            <a href="#" class="home__title--nombre">nahuel.avalos</a>
+          </p>
+        </div>
+        <div class="navbar__menu">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul class="navbar__links">
+          <li class="navbar__link active" data-ref="home">
+            <a href="#home">Home</a>
+          </li>
+          <li class="navbar__link" data-ref="about">
+            <a href="#about">About</a>
+          </li>
+          <li class="navbar__link" data-ref="services">
+            <a href="#services">Services</a>
+          </li>
+          <li class="navbar__link" data-ref="contact">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section id="home" class="home">
+      <div class="home__background"></div>
+      <picture>
+        <source type="image/webp" srcset="./assets/profile.webp" />
+        <img class="home__profile" alt="picture profile"/>
+      </picture>
+      <div class="home__description">
+        <h1 class="home__title">Nahuel Avalos</h1>
+        <span class="home__title--secondary">Fullstack Developer<br /></span>
+        <a href="#about" class="home__title-btn-get-started">
+          <i class="fas fa-arrow-circle-down ">
+          </i>
+        </a>
+      </div>
+    </section>
+    <section id="about">
+      <div class="container">
+        <h2 class="section__title">About</h2>
+        <div class="about__grid">
+          <div class="about__description">
+            <h3>CV</h3>
+            <p>
+              I am a Informatics Engineer graduated from the UNLaM. <br/>
+              I have worked in systems for the 5 last years. <br/>
+              I live in Buenos Aires, Argentina. 
+            </p>
+            <a
+              class="button--cta"
+              href="./assets/CV_Nahuel_Avalos.pdf"
+              download="CV_Nahuel_Avalos"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fas fa-file-download"></i>Download CV
+            </a>
+          </div>
+          <div class="about__skills_title">
+            <h3>Skills</h3>
+            <div class="about__skills"> 
+            <div class="skill__item">
+              <i class="fab fa-java" style='font-size:48px;color:#f89720de'></i>
+              <div class="skill__name">JAVA</div>
+            </div>
+            <div class="skill__item">
+              <i class="fab fa-google" style='font-size:48px;color:#29beaff3'></i>
+              <div class="skill__name">GOLANG</div>
+            </div>
+            <div class="skill__item">
+              <i class="fab fa-node-js" style='font-size:48px;color:#68a063 '></i>
+              <div class="skill__name">NODE.JS</div>
+            </div>
+            <div class="skill__item">
+              <i class="fab fa-python" style='font-size:48px;color:#ffd53bd7'></i>
+              <div class="skill__name">PYTHON</div>
+            </div>
+            <div class="skill__item">
+              <i class="fab fa-html5" style='font-size:48px;color:#f16529cc'></i>
+              <div class="skill__name">HTML</div>
+            </div>
+            <div class="skill__item">
+              <i class="fab fa-css3-alt" style='font-size:48px;color:#2965f1c7'></i>
+              <div class="skill__name">CSS</div>
+            </div>
+            <div class="skill__item">
+              <i class="fab fa-js-square" style='font-size:48px;color:#f0da4fe3'></i>
+              <div class="skill__name">JAVASCRIPT</div>
+            </div>
+            <div class="skill__item">
+              <i class="fab fa-php" style='font-size:48px;color:#8993be '></i>
+              <div class="skill__name">PHP</div>
+            </div>
+            <div class="skill__item">
+              <i class="fas fa-database" style='font-size:48px;color:#008bb9'></i>
+              <div class="skill__name">SQL</div>
+            </div>
+            <div class="skill__item">
+              <i class="fab fa-envira" style='font-size:48px;color:#3FA037'></i>
+              <div class="skill__name">MONGODB</div>
+            </div>
+            <div class="skill__item">
+              <i class="fab fa-git-alt" style='font-size:48px;color:#f34e29e5'></i>
+              <div class="skill__name">GIT</div>
+            </div>
+            <div class="skill__item">
+              <i class="fab fa-sellsy" style='font-size:48px;color:#16ba73f6'></i>
+              <div class="skill__name">SWAGGER</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container">
+        <h2 class="section__title">Services</h2>
+        <div class="services__grid">
+          <div class="services__item">
+            <i class="fas fa-desktop"></i>
+            <h3>Development</h3>
+            <p>
+              I offer REST APIs creation from the backend, as well as Web Pages from the frontend. 
+              I can also carry out any integration with an external service.
+            </p>
+          </div>
+          <div class="services__item">
+            <i class="fas fa-server"></i>
+            <h3>Database</h3>
+            <p>
+              SQL databases are used for transactional purposes to ensure consistency.
+              NoSQL databases can handle large volume documents quickly.
+            </p>
+          </div>
+          <div class="services__item">
+            <i class="fab fa-aws"></i>
+            <h3>Cloud Computing</h3>
+            <p>
+              Cloud computing allows the product to be available 24 hours 
+              a day in an environment suitable for the required performance
+            </p>
+          </div>
+          <div class="services__item">
+            <i class="fas fa-thumbs-up"></i>
+            <h3>Easy Integration</h3>
+            <p>
+              All products will have documentation available according 
+              to their characteristics. For example: User Manual, Readme, Swagger.
+            </p>
+          </div>
+          <div class="services__item">
+            <i class="fas fa-tachometer-alt"></i>
+            <h3>Performance</h3>
+            <p>
+              I emphasize the concurrency of the product software to process correctly the requests per minute (rpm) that enter the server
+            </p>
+          </div>
+          <div class="services__item">
+            <i class="fas fa-shield-alt"></i>
+            <h3>Security</h3>
+            <p>
+              The integrity, confidentiality and availability of the information is guaranteed, especially the user's sensitive information
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container">
+        <h2 class="section__title">Contact</h2>
+        <div class="contact__grid">
+          <a
+          href="https://www.linkedin.com/in/nahuelavalos92/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div class="contact__item">
+            <i class="fab fa-linkedin-in" style='font-size:48px;color:#43aee7'></i>
+            <p>LinkedIn</p>
+          </div>
+          </a>
+          <a
+            href="mailto:avalosnahuel@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="contact__item">
+              <i class="fas fa-envelope" style='font-size:48px;color:#e4d7d7'></i>
+              <p>Mail</p>
+            </div>
+          </a>
+          <a
+            href="https://github.com/nahuelavalos"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="contact__item">
+              <i class="fab fa-github" style='font-size:48px;color:#f5f5f5e8'></i>
+              <p>GitHub</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <p>
+          Copyright © 2021 - All Rights Reserved <br/>
+          Nahuel Avalos
+        </p>
+      </div>
+    </footer>
+    <script async src="./index.js"></script>
+  </body>
+</html>
+
