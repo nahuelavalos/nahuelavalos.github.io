@@ -147,6 +147,17 @@ section {
   text-shadow: 1px 1px #0E0F0F;
 }
 
+.home__cv {
+  height: 117px;
+  margin-top: 15px;
+  filter: contrast(0.93);
+  transition: filter 0.3s;
+}
+
+.home__cv:hover {
+  transition: filter 0.3s;
+  filter: grayscale(0);
+}
 
 .section__title {
   color: #f5f5f5;
@@ -349,12 +360,14 @@ section {
 }
 
 .button--cta {
-
+  font-size: 14px;
   background: #048cf4;
   color: #0E0F0F;
-  padding: 5px 30px;
-  display: inline-block;
-  margin: 25px auto;
+  padding: 2px 30px;
+  display: flow-root;
+  width: 198px;
+  margin-top: -14px;
+  text-align: center;
 }
 
 .button--cta i {

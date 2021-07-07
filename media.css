@@ -82,10 +82,6 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
-  .button--cta {
-    margin-bottom: 30px;
-  }
-
   .services__item {
     padding: 15px;
   }
