@@ -301,8 +301,8 @@ section {
 }
 
 .portfolio__img {
-  width: 100%;
-  height: 100%;
+  width: 101%;
+  height: 101%;
   object-fit: cover;
   display: block;
   transition: all 1s;
@@ -345,6 +345,7 @@ section {
 
 .buttons__container {
   display: flex;
+  margin-top: 150px;
 }
 
 .button {
