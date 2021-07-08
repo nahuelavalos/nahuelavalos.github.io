@@ -148,8 +148,8 @@ section {
 }
 
 .home__cv {
-  height: 117px;
-  margin-top: 15px;
+  height: 112px;
+  margin-top: 25px;
   filter: contrast(0.93);
   transition: filter 0.3s;
 }
@@ -363,9 +363,8 @@ section {
   font-size: 14px;
   background: #048cf4;
   color: #0E0F0F;
-  padding: 2px 30px;
   display: flow-root;
-  width: 198px;
+  width: 190px;
   margin-top: -14px;
   text-align: center;
 }
