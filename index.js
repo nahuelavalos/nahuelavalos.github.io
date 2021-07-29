@@ -49,6 +49,12 @@ function intersectionHandler(entry) {
   }
 }
 
+//Copyright
+date = new Date();
+year = date.getFullYear();
+var copyright = document.getElementById("copyright");
+copyright.querySelector(".text").textContent = "Copyright © " + year + " - All Rights Reserved";
+
 ScrollReveal().reveal(".navbar", { delay: 250 });
 ScrollReveal().reveal(".home__profile", { delay: 350 });
 ScrollReveal().reveal(".home__title--primary", { delay: 350 });

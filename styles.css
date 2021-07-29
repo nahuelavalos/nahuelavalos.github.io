@@ -437,7 +437,8 @@ section {
 }
 
 .home__title--nombre{
-  color: #80c5af; 
+  color: #80c5af;
+  font-weight: bold;
   /*content: "nahuel";*/ 
 }
 
