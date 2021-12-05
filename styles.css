@@ -364,8 +364,8 @@ section {
   font-size: 14px;
   background: #048cf4;
   color: #0E0F0F;
-  display: flow-root;
-  width: 190px;
+  display: inline-block;
+  width: 93px;
   margin-top: -14px;
   text-align: center;
 }
