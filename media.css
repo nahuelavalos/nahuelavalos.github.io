@@ -55,6 +55,7 @@
 
   .section__title {
     font-size: 25px;
+    margin-top: 20px;
   }
 
   .section__title:after {
