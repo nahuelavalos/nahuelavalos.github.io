@@ -55,6 +55,10 @@ year = date.getFullYear();
 var copyright = document.getElementById("copyright");
 copyright.querySelector(".text").textContent = "Copyright © " + year + " - All Rights Reserved";
 
+//Years of Experience
+var yearsOfExperience = document.getElementById("yearsOfExperience");
+yearsOfExperience.querySelector(".text").textContent = year - 2015 + " years of experience.";
+
 ScrollReveal().reveal(".navbar", { delay: 250 });
 ScrollReveal().reveal(".home__profile", { delay: 350 });
 ScrollReveal().reveal(".home__title--primary", { delay: 350 });

@@ -445,3 +445,13 @@ section {
 .home {
   flex-direction: column;
 }
+
+#yearsOfExperience {
+  display: inline-flex; /* Usa flexbox en línea para el contenedor */
+  /*align-items: center; /* Centra verticalmente los elementos */
+}
+
+#yearsOfExperience p {
+  margin-left: 4px; /* Espacio entre el ícono y el texto */
+  margin-top: -10px;
+}
