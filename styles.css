@@ -447,11 +447,10 @@ section {
 }
 
 #yearsOfExperience {
-  display: inline-flex; /* Usa flexbox en línea para el contenedor */
-  /*align-items: center; /* Centra verticalmente los elementos */
+  display: inline-flex;
 }
 
 #yearsOfExperience p {
-  margin-left: 4px; /* Espacio entre el ícono y el texto */
+  margin-left: 4px;
   margin-top: -10px;
 }
