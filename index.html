@@ -90,7 +90,12 @@
             </p>
             <picture>
               <source type="image/png" srcset="./assets/cv.png" />
-              <img class="home__cv"  />
+              <img class="home__cv" src="./assets/cv.png" class="cv-thumb" onclick="openModal()"/>
+              <!-- Modal -->
+              <div id="cvModal" class="modal" onclick="closeModal()">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="cvPreviewImage">
+              </div>
             </picture>
             <div style="margin-top: -11px">
               <a

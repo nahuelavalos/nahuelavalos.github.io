@@ -49,6 +49,21 @@ function intersectionHandler(entry) {
   }
 }
 
+//Modal CV preview
+function openModal() {
+  document.getElementById("cvModal").style.display = "flex";
+  document.getElementById("cvPreviewImage").src = "./assets/cv-preview.png"; 
+}
+function closeModal() {
+  document.getElementById("cvModal").style.display = "none";
+}
+//Modal close with ESC
+document.addEventListener("keydown", function(event) {
+  if (event.key === "Escape") {
+    closeModal();
+  }
+});
+
 //Copyright
 date = new Date();
 year = date.getFullYear();
