@@ -57,7 +57,7 @@ copyright.querySelector(".text").textContent = "Copyright © " + year + " - All 
 
 //Years of Experience
 var yearsOfExperience = document.getElementById("yearsOfExperience");
-yearsOfExperience.querySelector(".text").textContent = year - 2015 + " years of experience.";
+yearsOfExperience.querySelector(".text").textContent = year - 2015 + " years of professional experience.";
 
 ScrollReveal().reveal(".navbar", { delay: 250 });
 ScrollReveal().reveal(".home__profile", { delay: 350 });
