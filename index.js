@@ -1,3 +1,8 @@
+if ('scrollRestoration' in history) {
+  history.scrollRestoration = 'manual';
+}
+window.scrollTo(0, 0);
+
 const navbar = document.querySelector(".navbar");
 const homebg = document.querySelector(".home__background");
 const menu = document.querySelector(".navbar__menu");
@@ -16,6 +21,13 @@ function handleLlinks() {
 
 menu.addEventListener("click", handleLlinks);
 links.addEventListener("click", handleLlinks);
+
+window.addEventListener("load", function () {
+  window.scrollTo(0, 0);
+  if (window.location.hash) {
+    history.replaceState(null, "", window.location.pathname);
+  }
+});
 
 window.addEventListener("scroll", function () {
   window.scrollY > 100 && (navbar.style.background = `rgba(0,0,0,0.9)`);
@@ -80,15 +92,14 @@ ScrollReveal().reveal(".home__title--primary", { delay: 350 });
 ScrollReveal().reveal(".home__title", { delay: 450 });
 ScrollReveal().reveal(".home__title--secondary", { delay: 550 });
 ScrollReveal().reveal(".home__title-btn-get-started .fa-arrow-circle-down", { delay: 650 });
-ScrollReveal().reveal(".section__title", { delay: 250 });
-ScrollReveal().reveal(".section__subtitle", { delay: 350 });
-ScrollReveal().reveal(".about__description", { delay: 350 });
-ScrollReveal().reveal(".about__summary", { delay: 450 });
-ScrollReveal().reveal(".button--cta", { delay: 550 });
-ScrollReveal().reveal(".skill__title", { delay: 450 });
-ScrollReveal().reveal(".skill__item", { delay: 450 });
-ScrollReveal().reveal(".portfolio__item", { delay: 450 });
-ScrollReveal().reveal(".services__item", { delay: 450 });
-ScrollReveal().reveal(".contact__item", { delay: 450 });
-ScrollReveal().reveal(".footer", { delay: 450 });
+ScrollReveal().reveal(".section__title", { delay: 200 });
+ScrollReveal().reveal(".portfolio__item", { delay: 300 });
+ScrollReveal().reveal(".about__description", { delay: 450 });
+ScrollReveal().reveal(".about__summary", { delay: 550 });
+ScrollReveal().reveal(".button--cta", { delay: 600 });
+ScrollReveal().reveal(".skill__title", { delay: 500 });
+ScrollReveal().reveal(".skill__item", { delay: 500 });
+ScrollReveal().reveal(".services__item", { delay: 500 });
+ScrollReveal().reveal(".contact__item", { delay: 500 });
+ScrollReveal().reveal(".footer", { delay: 500 });
 
